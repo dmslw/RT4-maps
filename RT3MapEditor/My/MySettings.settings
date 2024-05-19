@@ -1,0 +1,900 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="RT3MapEditor.My" GeneratedClassName="MySettings" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="importPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="UICulture" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="tempDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="BurningCommand" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="mode" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="WorkingDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\RTxMAP</Value>
+    </Setting>
+    <Setting Name="ISODir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\RTxMAP</Value>
+    </Setting>
+    <Setting Name="BurnedMapNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="configComplete" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="importErrIncFormat" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="importErrIncCoord" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="importErrEmptyArea" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ignoreRT3AltName" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="importAscQuoted" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="importTxtQuoted" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="importCsvSepInt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="importLogError" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isFirstRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="strGpsPasPAN" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasPL" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRF" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRM" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRFR" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasR" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasF" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasNC" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasKMH" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="gpspasUserDefName" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="gpspasDispMode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="isGpsPasMiscDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasTypeDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasNumDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasRFRPostDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasSep1Displayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSpeedDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSpeedUnitDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSep2Displayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasDirDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="strGpsPasSep1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="isGpsPasStartDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasEndDisplayed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="strGpsPasStart" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasEnd" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasSep2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="ignoreRT3Borgate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeEmbassy" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeIndustArea" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeBorderCrossing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changePerfArts" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeCivicCenter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeMedicServ" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeMotorb" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STimportAll" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STimportAllMag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="STimportFixed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportFixedMag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="STimportMobile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STimportMobileMag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="STImportF120_130G" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportF120_130GMag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="STImportF100_119" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportF100_119Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="STImportF80_99" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportF80_99Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="STImportF60_79" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportF60_79Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="STImportF0_59" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportF0_59Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="STImportM120_130" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportM100_119" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportM100_119Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="STImportM80_99" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportM80_99Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="STImportM60_79" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportM0_59" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportM0_59Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="STImportRFR" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STImportRFRMag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="STImportMode" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="STImportM120_130Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="STImportM60_79Mag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="STimportAllType" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportFixedType" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportMobileType" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF120_130GType" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF100_119Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF80_99Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF60_79Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF0_59Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM120_130Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM100_119Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM80_99Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM60_79Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM0_59Type" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportRFRType" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportAllTypeIsNP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="STImportFixedTypeIsNP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="STImportMobileTypeIsNP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="importDefaultType" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="importDefaultMag" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="exportFormat" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="exportLatCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportNameCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportAddressCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportTelCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportCityCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportCommentCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportBrandCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportRT3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportFieldLatCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldLonCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldNameCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldAddressCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldCityCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldTelCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldCommentCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldBrandCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportAddressAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exportCityAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exportTelAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exportCommentAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exportBrandAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exportLonCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportFieldLatTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldLonTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldNameTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldAddressTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldCityTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldTelTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldCommentTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldBrandTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportAscIntSeparator" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> | </Value>
+    </Setting>
+    <Setting Name="exportCountryAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exportCountryCsv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportFieldCountryTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportFieldCountryCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="exportCsvSepInt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">59</Value>
+    </Setting>
+    <Setting Name="exportDecSepCsvInt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">42</Value>
+    </Setting>
+    <Setting Name="exportTxtSepInt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="exportFieldERT3Txt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ERT3</Value>
+    </Setting>
+    <Setting Name="exportFieldNRT3Txt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NRT3</Value>
+    </Setting>
+    <Setting Name="exportFieldTypeTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Type</Value>
+    </Setting>
+    <Setting Name="exportFieldMagnitudeTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Magnitude</Value>
+    </Setting>
+    <Setting Name="exportFieldCtTxt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ct</Value>
+    </Setting>
+    <Setting Name="forceRadarDisplay" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="upgMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="USBKeyPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="configCompleteOnce" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="autoLoad" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RTxType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RT3</Value>
+    </Setting>
+    <Setting Name="ImportDefaultTypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="RT4CDRMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RT4USBMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="STimportAllTypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportAllTypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportFixedTypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportFixedTypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF0_59TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF0_59TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF60_79TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF60_79TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF80_99TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF80_99TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF100_119TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF100_119TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF120_130GTypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportF120_130GTypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportRFRTypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportRFRTypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportMobileTypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STimportMobileTypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM0_59TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM0_59TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM60_79TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM60_79TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM80_99TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM80_99TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM100_119TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM100_119TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM120_130TypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="STImportM120_130TypeRT4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="ImportDefaultTypeRT3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">65535</Value>
+    </Setting>
+    <Setting Name="ignoreRT4Borgate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT4Embassy" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT4IndustArea" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT4BorderCrossing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT4PerfArts" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="changeRT4CivicCenter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT4MedicServ" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT4Motorb" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ignoreRT4AltName" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="newChangeImpIgn" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="changeRT3Embassy" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT3IndustArea" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT3BorderCrossing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT3PerfArts" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT3CivicCenter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT3MedicServ" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRT3Motorb" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ignoreRTxBorgate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ignoreRTxAltName" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxEmbassy" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxIndustArea" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxBorderCrossing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxPerfArts" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxCivicCenter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxMedicServ" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="changeRTxMotorb" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="importDefaultMagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="importDefaultMagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STimportAllMagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STimportAllMagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportF0_59MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportF0_59MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportF100_119MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportF100_119MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportF120_130GMagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportF120_130GMagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportF60_79MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportF60_79MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportF80_99MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportF80_99MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportFixedMagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportFixedMagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportM0_59MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportM0_59MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportM100_119MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportM100_119MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportM120_130MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportM120_130MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportM60_79MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportM60_79MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportM80_99MagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportM80_99MagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STimportMobileMagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STimportMobileMagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="STImportRFRMagRT3" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="STImportRFRMagRT4" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="RTxModeMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)">map</Value>
+    </Setting>
+    <Setting Name="WorkingDirAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="alertDIRCID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">002</Value>
+    </Setting>
+    <Setting Name="RTxVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ver56x</Value>
+    </Setting>
+    <Setting Name="strGpsPasPANMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasPLMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRFMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRMMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRFRMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasFMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasNCMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRDMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasKMHMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="gpspasUserDefNameMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="gpspasDispModeMap" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="isGpsPasMiscDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasTypeDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasNumDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasRFRPostDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasSep1DisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSpeedDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSpeedUnitDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSep2DisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasDirDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="strGpsPasSep1Map" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="isGpsPasStartDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasEndDisplayedMap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="strGpsPasStartMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;</Value>
+    </Setting>
+    <Setting Name="strGpsPasEndMap" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasSep2Map" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="strGpsPasPANAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasPLAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRFAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRMAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRFRAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasFAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasNCAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasRDAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasKMHAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="gpspasUserDefNameAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="gpspasDispModeAlert" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="isGpsPasMiscDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasTypeDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasNumDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasRFRPostDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasSep1DisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSpeedDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSpeedUnitDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasSep2DisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="isGpsPasDirDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="strGpsPasSep1Alert" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="isGpsPasStartDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isGpsPasEndDisplayedAlert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="strGpsPasStartAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="strGpsPasEndAlert" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&gt;</Value>
+    </Setting>
+    <Setting Name="strGpsPasSep2Alert" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

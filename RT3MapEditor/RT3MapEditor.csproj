@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{3D9A3414-8E9A-4DE2-B2A8-ABDF13122C37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RT3MapEditor</RootNamespace>
+    <AssemblyName>RT3MapEditor</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>4096</FileAlignment>
+    <ApplicationIcon>RT3MapEditor.ico</ApplicationIcon>
+    <StartupObject>RT3MapEditor.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\Users\domin\AppData\Local\Apps\2.0\L00QBJZJ.6Q9\D3983D3L.RTB\rt3m..tion_44bf11107d6aa020_0000.0006_09ffce1f4154e332\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllPOIParamDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllPOIParamDialog.Designer.cs">
+      <DependentUpon>AllPOIParamDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMPUtils.cs" />
+    <Compile Include="BootScreenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootScreenDialog.Designer.cs">
+      <DependentUpon>BootScreenDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BootScreenFramingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootScreenFramingDialog.Designer.cs">
+      <DependentUpon>BootScreenFramingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buildSortedAlertDicts.cs" />
+    <Compile Include="buildSortedMapDicts.cs" />
+    <Compile Include="CameraList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraList.Designer.cs">
+      <DependentUpon>CameraList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CATPOI.cs" />
+    <Compile Include="ChoseFile2ExportDialog.cs" />
+    <Compile Include="clsLZW.cs" />
+    <Compile Include="comboCharItems.cs" />
+    <Compile Include="comboIntItems.cs" />
+    <Compile Include="comboRTxVersionsItems.cs" />
+    <Compile Include="comboSTImportModeItems.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="commonFiles.cs" />
+    <Compile Include="ConfigDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigDialog.Designer.cs">
+      <DependentUpon>ConfigDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigDialogExportTabPage.cs" />
+    <Compile Include="ConfigDialogImportTabPage.cs" />
+    <Compile Include="ConfigDialogNameTabPage.cs" />
+    <Compile Include="configDialogSTArchTabPage.cs" />
+    <Compile Include="ContAbortErrBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContAbortErrBox.Designer.cs">
+      <DependentUpon>ContAbortErrBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoordConvDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoordConvDialog.Designer.cs">
+      <DependentUpon>CoordConvDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyMap.cs" />
+    <Compile Include="CountryUserPOIDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountryUserPOIDialog.Designer.cs">
+      <DependentUpon>CountryUserPOIDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CURR_VERS_NAVI.cs" />
+    <Compile Include="DBDWNLPPCPatchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBDWNLPPCPatchDialog.Designer.cs">
+      <DependentUpon>DBDWNLPPCPatchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DCN_CAT.cs" />
+    <Compile Include="DriveController.cs" />
+    <Compile Include="DriveList.cs" />
+    <Compile Include="DupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DupDialog.Designer.cs">
+      <DependentUpon>DupDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dupListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dupListDialog.Designer.cs">
+      <DependentUpon>dupListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exportToAlert.cs" />
+    <Compile Include="exportToFile.cs" />
+    <Compile Include="exportToRT3.cs" />
+    <Compile Include="FatalErrorBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FatalErrorBox.Designer.cs">
+      <DependentUpon>FatalErrorBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileUtils.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMainNameTabPage.cs" />
+    <Compile Include="FRANCAT_POI.cs" />
+    <Compile Include="FRANCCOM_LET.cs" />
+    <Compile Include="FRANCDPA_LZW.cs" />
+    <Compile Include="FRANCDSP_POI.cs" />
+    <Compile Include="FRANCPOI_DAT.cs" />
+    <Compile Include="FRANCSCCDST.cs" />
+    <Compile Include="FRANCSCCIMP.cs" />
+    <Compile Include="FRANCXXXDSC.cs" />
+    <Compile Include="FRANCXXXDST.cs" />
+    <Compile Include="FRANC_EX_DMR.cs" />
+    <Compile Include="FRANC_EX_DPS.cs" />
+    <Compile Include="FRANC_NOMSERV_DAT.cs" />
+    <Compile Include="GEOCART.cs" />
+    <Compile Include="GRUPPODAT.cs" />
+    <Compile Include="GUIDA_CHAMPERARD_POI.cs" />
+    <Compile Include="GUIException.cs" />
+    <Compile Include="ImportedPOILists.cs" />
+    <Compile Include="importFromFiles.cs" />
+    <Compile Include="ImportFromRT3.cs" />
+    <Compile Include="importFromScdb.cs" />
+    <Compile Include="IncUSBKeyException.cs" />
+    <Compile Include="Inifiles.cs" />
+    <Compile Include="InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvRT4ConfigFileException.cs" />
+    <Compile Include="LastLoadedMaps.cs" />
+    <Compile Include="LicenseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseDialog.Designer.cs">
+      <DependentUpon>LicenseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfPOILists.cs" />
+    <Compile Include="LP.cs" />
+    <Compile Include="magComboBoxInit.cs" />
+    <Compile Include="MapGfxgph.cs" />
+    <Compile Include="MapGfxgphEntries.cs" />
+    <Compile Include="MapGfxgphEntry.cs" />
+    <Compile Include="MapGfxgphHeaders.cs" />
+    <Compile Include="MapIniDef.cs" />
+    <Compile Include="MAPMngt.cs" />
+    <Compile Include="MapUpgrade.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettings.Designer.cs">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="NonFatalErrorBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NonFatalErrorBox.Designer.cs">
+      <DependentUpon>NonFatalErrorBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NVPair.cs" />
+    <Compile Include="NVPairList.cs" />
+    <Compile Include="OpenFiles2ImportDialog.cs" />
+    <Compile Include="POICategoryInfos.cs" />
+    <Compile Include="POIDatas.cs" />
+    <Compile Include="POILists.cs" />
+    <Compile Include="POIName.cs" />
+    <Compile Include="POITypeInfo.cs" />
+    <Compile Include="POIVERPOI.cs" />
+    <Compile Include="POIVERXXXTXT.cs" />
+    <Compile Include="PrefInt.cs" />
+    <Compile Include="progressBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progressBox.Designer.cs">
+      <DependentUpon>progressBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="projection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RADARDSCLZW.cs" />
+    <Compile Include="RADAR_LZW.cs" />
+    <Compile Include="RADAR_PE_LZW.cs" />
+    <Compile Include="RADAR_PS_LZW.cs" />
+    <Compile Include="renameDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="renameDialog.Designer.cs">
+      <DependentUpon>renameDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RT3LZW.cs" />
+    <Compile Include="RT3Reader.cs" />
+    <Compile Include="RT3Writer.cs" />
+    <Compile Include="RT4Inf.cs" />
+    <Compile Include="RT4Reader.cs" />
+    <Compile Include="RT4Utils.cs" />
+    <Compile Include="RT4Writer.cs" />
+    <Compile Include="RTxFileNames.cs" />
+    <Compile Include="RTxScreen.cs" />
+    <Compile Include="SCITTANAME_DAT.cs" />
+    <Compile Include="ScreenPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenPreview.Designer.cs">
+      <DependentUpon>ScreenPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectCIDDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectCIDDialog.Designer.cs">
+      <DependentUpon>selectCIDDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectFlashDriveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFlashDriveDialog.Designer.cs">
+      <DependentUpon>SelectFlashDriveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SilentGUIException.cs" />
+    <Compile Include="STArchives.cs" />
+    <Compile Include="STLists.cs" />
+    <Compile Include="SWVersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SWVersDialog.Designer.cs">
+      <DependentUpon>SWVersDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="typeComboBoxInit.cs" />
+    <Compile Include="USBMapDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USBMapDialog.Designer.cs">
+      <DependentUpon>USBMapDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserComDat.cs" />
+    <Compile Include="userSettings.cs" />
+    <Compile Include="WizardState.cs" />
+    <Compile Include="XY.cs" />
+    <Compile Include="ZZZCOM_IND.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resources" />
+    <EmbeddedResource Include="AllPOIParamDialog.resources" />
+    <EmbeddedResource Include="BootScreenDialog.resources" />
+    <EmbeddedResource Include="BootScreenFramingDialog.resources" />
+    <EmbeddedResource Include="CameraList.resources" />
+    <EmbeddedResource Include="ConfigDialog.resources" />
+    <EmbeddedResource Include="ContAbortErrBox.resources" />
+    <EmbeddedResource Include="CoordConvDialog.resources" />
+    <EmbeddedResource Include="CountryUserPOIDialog.resources" />
+    <EmbeddedResource Include="DBDWNLPPCPatchDialog.resources" />
+    <EmbeddedResource Include="DupDialog.resources" />
+    <EmbeddedResource Include="dupListDialog.resources" />
+    <EmbeddedResource Include="FatalErrorBox.resources" />
+    <EmbeddedResource Include="FormMain.resources" />
+    <EmbeddedResource Include="InputDialog.resources" />
+    <EmbeddedResource Include="LicenseDialog.resources" />
+    <EmbeddedResource Include="NonFatalErrorBox.resources" />
+    <EmbeddedResource Include="progressBox.resources" />
+    <EmbeddedResource Include="renameDialog.resources" />
+    <EmbeddedResource Include="Resources.resources" />
+    <EmbeddedResource Include="ScreenPreview.resources" />
+    <EmbeddedResource Include="selectCIDDialog.resources" />
+    <EmbeddedResource Include="SelectFlashDriveDialog.resources" />
+    <EmbeddedResource Include="SWVersDialog.resources" />
+    <EmbeddedResource Include="USBMapDialog.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
